@@ -1,5 +1,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<table id="tictable">
+
+
+<p>Please select your player:</p>
+<input type="radio" id="p1" name="player" value="player1">
+<label for="p1">Player1</label><br>
+<input type="radio" id="p2" name="player" value="player2">
+<label for="p2">Player2</label><br>
+
+<br><br>
+
+<table id="tictactable" style="width:25%">
   <tr>
     <td>1</td>
     <td>2</td>
@@ -16,4 +26,14 @@
     <td>9</td>
   </tr>
 </table>
+
 <script src="home.js"></script>
+
+<style>
+table, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  align: center
+}
+</style>
+
