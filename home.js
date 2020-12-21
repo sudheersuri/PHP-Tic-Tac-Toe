@@ -7,6 +7,9 @@ table.addEventListener("click", function (e) {
   //kartik : take this array and convert it into json format
   //kartik : post this json data to api
   //kartik : get the response
+  if(e.target.innerHTML == "X" || e.target.innerHTML == "O"){
+    return
+  }
   var p = document.getElementsByName("player")[0].checked
   //console.log(p)
   var i = e.target.innerHTML-1
